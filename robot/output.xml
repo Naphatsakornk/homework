@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on darwin)" generated="2026-03-18T16:40:37.616572" rpa="false" schemaversion="5">
+<suite id="s1" name="Hello World" source="/Users/naphatsakon.k/Desktop/homework/robot/hello_world.robot">
+<test id="s1-t1" name="Test" line="5">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-03-18T16:40:37.635874" level="INFO">Hello world</msg>
+<arg>Hello world</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-03-18T16:40:37.635726" elapsed="0.000183"/>
+</kw>
+<status status="PASS" start="2026-03-18T16:40:37.635390" elapsed="0.000595"/>
+</test>
+<doc>Homework for beginner - Log Hello World</doc>
+<status status="PASS" start="2026-03-18T16:40:37.617822" elapsed="0.018327"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Hello World" id="s1" pass="1" fail="0" skip="0">Hello World</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
