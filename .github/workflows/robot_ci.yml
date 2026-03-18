@@ -23,7 +23,7 @@ jobs:
         run: pip install robotframework
 
       - name: Run Robot Framework tests
-        run: robot hello_world.robot
+        run: robot robot/hello_world.robot
 
       - name: Upload Robot Framework report
         uses: actions/upload-artifact@v4
