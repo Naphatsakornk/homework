@@ -1,6 +1,4 @@
-*** Settings ***
-Documentation    Homework for beginner - Log Hello World
-
 *** Test Cases ***
-Test
+Hello world
+    Log To Console    Hello world
     Log    Hello world
